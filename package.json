@@ -1,0 +1,22 @@
+{
+  "name": "tbtc-faucet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@2captcha/captcha-solver": "^1.3.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.7",
+    "figlet": "^1.8.0",
+    "https-proxy-agent": "^7.0.6",
+    "node-fetch": "^2.7.0",
+    "zolt": "^1.1.0"
+  }
+}
